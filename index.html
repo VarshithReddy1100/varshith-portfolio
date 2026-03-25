@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshith Reddy Surakanti | Portfolio</title>
+    <!-- Inter Font acting as an SF Pro alternative -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Varshith Reddy</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#what-i-do">Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="hero-container reveal">
+                <!-- Left Text Content -->
+                <div class="hero-content">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem;">
+                        <span
+                            style="display: inline-block; width: 10px; height: 10px; background-color: #34c759; border-radius: 50%; box-shadow: 0 0 10px rgba(52,199,89,0.4);"></span>
+                        <span
+                            style="font-size: 0.95rem; font-weight: 500; color: var(--text-secondary); letter-spacing: -0.01em;">Open
+                            to internships & opportunities</span>
+                    </div>
+                    <h1 class="name mask-text" style="margin-bottom: 1rem;">
+                        <span class="mask-line"><span class="mask-inner">Varshith Reddy</span></span>
+                        <span class="mask-line"><span class="mask-inner">Surakanti</span></span>
+                    </h1>
+                    <p class="tagline" style="margin-bottom: 1.5rem;">Passionate about building scalable applications
+                        using Java and leveraging data to
+                        solve real-world problems.</p>
+                    <div class="tech-stack" style="margin-bottom: 2.5rem; justify-content: flex-start;">
+                        <span style="font-size: 0.85rem; padding: 0.4rem 1rem;">Java</span>
+                        <span style="font-size: 0.85rem; padding: 0.4rem 1rem;">Python</span>
+                        <span style="font-size: 0.85rem; padding: 0.4rem 1rem;">SQL</span>
+                        <span style="font-size: 0.85rem; padding: 0.4rem 1rem;">Machine Learning</span>
+                    </div>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="https://drive.google.com/file/d/1Cs1wh-JkQqtfdlCudEbOmnAfJ8QHULtl/view"
+                            target="_blank" class="btn btn-secondary">
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+                <!-- Right Profile Photo -->
+                <div class="hero-image-wrapper">
+                    <img src="profile-photo.png" alt="Varshith Reddy Surakanti - Profile" class="profile-photo"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Varshith+Reddy&size=400&background=random';">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding alt-bg">
+            <div class="section-header reveal">
+                <h2 class="section-title">About me.</h2>
+            </div>
+            <div class="apple-card reveal text-center" style="max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.25rem; line-height: 1.5;">I’m a Computer Science student focused on Java
+                    development and data-driven solutions. I enjoy building clean, scalable applications and turning
+                    data into meaningful insights. Constantly learning and improving, I aim to create impactful software
+                    that solves real-world problems.
+                    .</p>
+            </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section id="what-i-do" class="skills section-padding">
+            <div class="section-header reveal">
+                <h2 class="section-title">What I Do.</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="apple-card reveal text-center">
+                    <i class="ph ph-brackets-curly"
+                        style="font-size: 3.5rem; color: var(--text-primary); margin-bottom: 1.5rem; display: inline-block;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Backend Development</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6;">Java, OOP, JDBC</p>
+                </div>
+                <div class="apple-card reveal text-center" style="transition-delay: 100ms">
+                    <i class="ph ph-chart-bar"
+                        style="font-size: 3.5rem; color: var(--text-primary); margin-bottom: 1.5rem; display: inline-block;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Data Analysis</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6;">Python, Pandas, Visualization</p>
+                </div>
+                <div class="apple-card reveal text-center" style="transition-delay: 200ms">
+                    <i class="ph ph-lightbulb"
+                        style="font-size: 3.5rem; color: var(--text-primary); margin-bottom: 1.5rem; display: inline-block;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem;">Problem Solving</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.6;">Algorithms, logical thinking</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding alt-bg">
+            <div class="section-header reveal">
+                <h2 class="section-title">Featured works.</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card apple-card reveal">
+                    <h3>Exploratory Data Analysis <br>on IPL Cricket Matches</h3>
+                    <span class="date-stamp">May 2025</span>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Pandas</span><span>NumPy</span><span>Seaborn</span><span>Matplotlib</span>
+                    </div>
+                    <ul>
+                        <li>Analyzed IPL datasets (2008–2024) to uncover trends in team performance and match outcomes.
+                        </li>
+                        <li>Cleaned, processed, and transformed large datasets using Pandas and NumPy.</li>
+                        <li>Explored key factors such as toss decisions, venue influence, and team strategies.</li>
+                        <li>Built insightful visualizations using Matplotlib and Seaborn to identify patterns.</li>
+                        <li>Evaluated player performance metrics and scoring trends across different seasons.</li>
+                        <li>Derived data-driven insights to understand match-winning probabilities and performance
+                            variations.</li>
+                        <li style="color: var(--text-primary);"><strong>Impact:</strong> Delivered comprehensive visual
+                            reports that clearly demonstrated the influence of toss decisions on match outcomes.</li>
+                    </ul>
+                    <a href="https://github.com/VarshithReddy1100/IPL-EDA-Analysis" class="btn btn-primary btn-sm"
+                        target="_blank" style="margin-top: auto; align-self: center;">
+                        <i class="ph-fill ph-github-logo" style="margin-right: 6px;"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card apple-card reveal" style="transition-delay: 100ms">
+                    <h3>Student Academic Portal <br>System</h3>
+                    <span class="date-stamp">April 2025</span>
+                    <div class="tech-stack"><span>Java</span><span>JDBC</span><span>OOP</span><span>IntelliJ IDEA</span>
+                    </div>
+                    <ul>
+                        <li>Developed a Java-based academic management system using OOP principles and JDBC.</li>
+                        <li>Designed and implemented modules for student registration, course management, and record
+                            tracking.</li>
+                        <li>Integrated database connectivity to perform CRUD operations efficiently.</li>
+                        <li>Implemented input validation and exception handling to ensure data accuracy and system
+                            reliability.</li>
+                        <li>Structured the application using modular programming for better scalability and
+                            maintainability.</li>
+                        <li>Used IntelliJ IDEA for development, debugging, and testing of application functionalities.
+                        </li>
+                        <li style="color: var(--text-primary);"><strong>Impact:</strong> Streamlined the student
+                            registration and course management process, enhancing system reliability.</li>
+                    </ul>
+                    <a href="https://github.com/VarshithReddy1100/student-academic-portal-system"
+                        class="btn btn-primary btn-sm" target="_blank" style="margin-top: auto; align-self: center;">
+                        <i class="ph-fill ph-github-logo" style="margin-right: 6px;"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training Section -->
+        <section id="training" class="training section-padding">
+            <div class="section-header reveal">
+                <h2 class="section-title">Training.</h2>
+            </div>
+            <div class="edu-layout">
+                <div class="apple-card reveal">
+                    <h3 style="font-size: 1.4rem; margin-bottom: 0.3rem;">The Ultimate PL/SQL & Data Science Bootcamp
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 1.5rem; font-weight: 500;">
+                        Code Query | Jun 2025 – Jul 2025</p>
+                    <ul>
+                        <li>Worked with SQL and Oracle Database.</li>
+                        <li>Learned PL/SQL: procedures, functions, cursors, exception handling.</li>
+                        <li>Gained knowledge in data preprocessing and exploratory data analysis.</li>
+                    </ul>
+                </div>
+                <div class="apple-card reveal" style="transition-delay: 100ms">
+                    <h3 style="font-size: 1.4rem; margin-bottom: 0.3rem;">Python Data Mastery: From Fundamentals to
+                        Machine Learning</h3>
+                    <p style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 1.5rem; font-weight: 500;">
+                        Lovely Professional University | Jun 2024 – Jul 2024</p>
+                    <ul>
+                        <li>Built a strong foundation in Python programming and data handling.</li>
+                        <li>Worked with datasets using libraries for analysis and preprocessing.</li>
+                        <li>Learned basic machine learning concepts and data visualization techniques.</li>
+                        <li>Developed problem-solving skills through practical exercises and projects.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements Sect. -->
+        <section id="achievements" class="certifications section-padding alt-bg">
+            <div class="section-header reveal">
+                <h2 class="section-title">Certifications & Achievements.</h2>
+            </div>
+
+            <div class="projects-grid mb-3">
+                <div class="cert-card apple-card reveal">
+                    <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+                    <h3>Code Query: PL/SQL Bootcamp</h3>
+                    <p class="cert-issuer">Code Query</p>
+                    <p class="cert-date">June 2025</p>
+                    <a href="plsql-certificate.pdf" target="_blank"
+                        class="btn btn-primary btn-sm">View Certificate</a>
+                </div>
+                <div class="cert-card apple-card reveal" style="transition-delay: 100ms">
+                    <div class="cert-icon"><i class="ph ph-medal"></i></div>
+                    <h3>Responsive Web Design</h3>
+                    <p class="cert-issuer">freeCodeCamp</p>
+                    <p class="cert-date">October 2023</p>
+                    <a href="responsive-webdesign-certificate.png" target="_blank"
+                        class="btn btn-primary btn-sm">View Certificate</a>
+                </div>
+                <div class="cert-card apple-card reveal" style="transition-delay: 200ms">
+                    <div class="cert-icon"><i class="ph ph-file-py"></i></div>
+                    <h3>Python & Machine Learning</h3>
+                    <p class="cert-issuer">Center for Professional Enhancement</p>
+                    <p class="cert-date">Jun'24</p>
+                    <a href="python-Ml.pdf" target="_blank"
+                        class="btn btn-primary btn-sm">View Certificate</a>
+                </div>
+            </div>
+
+            <div class="achievements-grid reveal ms-top">
+                <div class="badge apple-card"><i class="ph-fill ph-check-circle"></i> Solved 100+ coding problems on
+                    LeetCode and HackerRank</div>
+                <div class="badge apple-card" style="transition-delay: 100ms"><i class="ph-fill ph-check-circle"></i>
+                    Built a responsive website within 24 hours during a university hackathon</div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-padding">
+            <div class="section-header reveal">
+                <h2 class="section-title">Education.</h2>
+            </div>
+            <div class="edu-layout">
+                <div class="edu-item apple-card reveal">
+                    <div class="edu-header">
+                        <h3>Lovely Professional University</h3>
+                        <span class="edu-date">2023 – Present</span>
+                    </div>
+                    <p class="degree">B.Tech in Computer Science and Engineering</p>
+                    <p class="grade">CGPA: 7.8</p>
+                </div>
+                <div class="edu-item apple-card reveal" style="transition-delay: 100ms">
+                    <div class="edu-header">
+                        <h3>SR Sri Gayatri Junior College</h3>
+                        <span class="edu-date">2022 – 2023</span>
+                    </div>
+                    <p class="degree">Intermediate (PCM)</p>
+                    <p class="grade">Percentage: 97%</p>
+                </div>
+                <div class="edu-item apple-card reveal" style="transition-delay: 200ms">
+                    <div class="edu-header">
+                        <h3>Sri Chaitanya CBSE Techno School</h3>
+                        <span class="edu-date">2020 – 2021</span>
+                    </div>
+                    <p class="degree">Matriculation</p>
+                    <p class="grade">Percentage: 85.2%</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Contact Footer -->
+    <footer id="contact" class="alt-bg">
+        <div class="footer-wrapper reveal">
+            <h2 class="section-title" style="margin-bottom: 2rem;">Contact.</h2>
+            <div class="contact-info"
+                style="flex-direction: row; justify-content: center; flex-wrap: wrap; gap: 1.5rem;">
+                <a href="mailto:surakantivarshithreddy7@gmail.com?subject=Regarding%20Portfolio&body=Hello%20Varshith%2C%20I%20would%20like%20to%20connect%20with%20you."
+                    class="btn btn-primary" target="_blank">
+                    <i class="ph-fill ph-envelope-simple" style="margin-right: 8px;"></i> Email Me
+                </a>
+                <a href="tel:+917815967233" class="btn btn-secondary">
+                    <i class="ph-fill ph-phone" style="margin-right: 8px;"></i> Call Me
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/varshith-reddy-surakanti-1a6106299" target="_blank"
+                    class="social-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+                    <i class="ph-fill ph-linkedin-logo"></i>
+                </a>
+                <a href="https://github.com/VarshithReddy1100" target="_blank" class="social-icon"
+                    aria-label="GitHub"><i class="ph-fill ph-github-logo"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Varshith Reddy Surakanti. Designed & built by Varshith Reddy.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Button -->
+    <a href="#contact" class="floating-contact-btn" title="Contact Me">
+        <i class="ph-fill ph-envelope-simple"></i>
+        <span>Contact Me</span>
+    </a>
+</body>
+
+</html>
